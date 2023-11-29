@@ -4,7 +4,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7773546.svg)](https://doi.org/10.5281/zenodo.7773546)
 
-
+## Crazyflie mocap
+Natnet ROS was used as part of crazyflie drone position tracking in 3D. A lander was created whose position was also tracked by the mocap with sufficient accuracy.
 
 ## Introduction
 This package contains a ROS driver for the NatNet protocol used by the OptiTrack motion capture system. It supports NatNet versions 4.0 (Motive 2.2 and higher). The NatNet SDK provided by the optitrack can be found [here](https://optitrack.com/support/downloads/developer-tools.html#natnet-sdk). It will be downloaded under `deps/NatnetSDK` while building it for the first time. NatNet protocol is used for streaming live motion capture data (rigid bodies, skeletons etc) across the shared network. 
@@ -20,15 +21,6 @@ This package is only tested with the Natnet 4.0 and ROS noetic but probably will
  - Unlabled markers can be also published as `sensor_msgs/PointCloud`
  - Different options for publishing and logging the data
 
-
-### Work under progress: 
-
- - Include Skeleton and other devices in the system to make it package as whole.
- - Considering position and orientation for similar marker configurations (at least 3 markers)
- - Considering compensation of time delay (~5-6ms) to the ROS time stamp.
- - Adding an option for the axis orientation (Z UP or Y UP)
- - Creating package for ROS2.
- - Implement CI-CD and Issue templete.
 
 ## How to use it
 
