@@ -3,6 +3,10 @@
 ## Crazyflie mocap
 Natnet ROS was used as part of crazyflie drone position tracking & broadcasting in 3D. A lander was created whose position was also tracked by the mocap with sufficient accuracy. The Windows PC and the Ubuntu PC need to be connected to the same LAN, so, the Ubuntu PC needs a wired connection to the LAN to get the position stream from the Windows computer. Also, after the Wired connection, some settings of the wired connection need to be changed. 
 
+<div align="center">
+  <img src="media/mocap_broadcast.png" width="600">
+</div>
+
 ## Introduction
 This package contains a ROS driver for the NatNet protocol used by the OptiTrack motion capture system. It supports NatNet versions 4.0 (Motive 2.2 and higher). The NatNet SDK provided by the optitrack can be found [here](https://optitrack.com/support/downloads/developer-tools.html#natnet-sdk). It will be downloaded under `deps/NatnetSDK` while building it for the first time. NatNet protocol is used for streaming live motion capture data (rigid bodies, skeletons etc) across the shared network. 
 
