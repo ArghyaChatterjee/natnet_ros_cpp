@@ -78,4 +78,5 @@ changes are following
 
 ## Resources
 - Data Streaming [[website]](https://v22.wiki.optitrack.com/index.php?title=Data_Streaming)
+- mocap4ros2-setup [[website]](https://docs.optitrack.com/robotics/mocap4ros2-setup)
 
