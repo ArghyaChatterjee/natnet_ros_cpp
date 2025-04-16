@@ -1,9 +1,5 @@
 # NatNet 4 ROS driver
 
-[![GitHub Action Status](https://github.com/L2S-lab/natnet_ros_cpp/actions/workflows/main.yaml/badge.svg?event=push)](https://github.com/L2S-lab/natnet_ros_cpp)  
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7773546.svg)](https://doi.org/10.5281/zenodo.7773546)
-
 ## Crazyflie mocap
 Natnet ROS was used as part of crazyflie drone position tracking & broadcasting in 3D. A lander was created whose position was also tracked by the mocap with sufficient accuracy. The Windows PC and the Ubuntu PC need to be connected to the same LAN, so, the Ubuntu PC needs a wired connection to the LAN to get the position stream from the Windows computer. Also, after the Wired connection, some settings of the wired connection need to be changed. 
 
