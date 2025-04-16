@@ -4,7 +4,7 @@
 Natnet ROS was used as part of crazyflie drone position tracking & broadcasting in 3D. A lander was created whose position was also tracked by the mocap with sufficient accuracy. The Windows PC and the Ubuntu PC need to be connected to the same LAN, so, the Ubuntu PC needs a wired connection to the LAN to get the position stream from the Windows computer. Also, after the Wired connection, some settings of the wired connection need to be changed. 
 
 <div align="center">
-  <img src="media/mocap_broadcast.png" width="600">
+  <img src="img/mocap_broadcast.png" width="600">
 </div>
 
 ## Introduction
